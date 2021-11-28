@@ -1,0 +1,43 @@
+.drawing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 20px;
+    
+}
+canvas{
+    border: 2px solid black;
+    cursor: url('images.png'), default;
+}
+
+.color-palette {
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.color{
+    padding: 40px 0;
+    cursor: pointer;
+}
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+#black {
+    background-color: black;
+}
+#pink {
+    background-color: pink;
+}
+h3 {
+    color: white;
+    text-align: center;
+}
+#clear {
+    border: 1px solid black;
+    text-align: center;
+}
